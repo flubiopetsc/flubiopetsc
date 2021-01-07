@@ -21,7 +21,7 @@
           <a id="forkme_banner" href="https://gitlab.com/alie89/flubio-code-fvm">View on GitLab</a>
 
           <h1 id="project_title">FLUBIO</h1>
-          <h2 id="project_tagline">FLUBIO—An unstructured, parallel, finite-volume based Navier–Stokes and convection–diffusion like equations solver for teaching and research purposes</h2>
+          <h2 id="project_tagline">FLUBIO—An unstructured, parallel, finite-volume based Navier–Stokes and convection–diffusion like equations solver</h2>
 
         </header>
     </div>
@@ -33,7 +33,7 @@
 
 
 <h3>
-Welcome to FLUBIO homepage
+Welcome to FLUBIO solver homepage
 </h3>
 
 <p>
@@ -67,12 +67,12 @@ What can I do with FLUBIO?
 </h3>
 
 <p>
-FLUBIO can deal with one-dimensional, two-dimensional, and three-dimensional domains. It uses unstructured meshes, and in theory, can handle any cell element type (tetrahedrons, hexes, prisms, pyramids, and general polyhedrons). Hybrid meshes, made up ofany combination of the cell types mentioned previously, are also supported. FLUBIO does not support hanging nodes. 
+FLUBIO can deal with one-dimensional, two-dimensional, and three-dimensional domains. It uses unstructured meshes, and in theory, can handle any cell element type (tetrahedrons, hexes, prisms, pyramids, and general polyhedrons). Hybrid meshes, made up of any combination of the cell types mentioned previously, are also supported. FLUBIO does not support hanging nodes. 
 
 <br>
 <br>
 
-FLUBIO has been fully parallelized by using domain decomposition and the message passing interface library OpenMPI. To solve the linear systems arising from the discretization of the governing equations, FLUBIO uses the high performance computing library PETSc, which is a collection of routines for efficient and scalable scientific computing.
+FLUBIO has been fully parallelized by using domain decomposition and the message passing interface library OpenMPI. To solve the linear systems arising from the discretization of the governing equations, FLUBIO uses the high performance computing library <a href="https://www.mcs.anl.gov/petsc/">PETSc</a>, which is a collection of routines for efficient and scalable scientific computing.
 
 <br>
 <br>
@@ -102,6 +102,8 @@ The solver is cell-centered, and it uses segregated methods to deal with the pre
 </p>
 
 <br>
+
+<!-- add that visualization is done with paraview and VTK -->
 
 <h3>
 Some colorful applications
