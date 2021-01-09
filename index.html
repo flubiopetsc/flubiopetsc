@@ -2,6 +2,17 @@
 <html>
 
   <head>
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-LZW11B0HC7"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-LZW11B0HC7');
+</script>
+    
     <meta charset='utf-8'>
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
     <meta name="description" content="https://flubiopetsc.github.io/flubiopetsc/ : github page">
@@ -21,7 +32,9 @@
           <a id="forkme_banner" href="https://gitlab.com/alie89/flubio-code-fvm">View on GitLab</a>
 
           <h1 id="project_title">FLUBIO</h1>
-          <h2 id="project_tagline">FLUBIO—An unstructured, parallel, finite-volume based Navier–Stokes and convection–diffusion like equations solver</h2>
+          <h2 id="project_tagline">An unstructured, parallel, finite-volume based Navier–Stokes and convection–diffusion like equations solver</h2>
+
+<!--           <h2 id="project_tagline">FLUBIO—An unstructured, parallel, finite-volume based Navier–Stokes and convection–diffusion like equations solver</h2> -->
 
         </header>
     </div>
@@ -37,7 +50,7 @@ Welcome to FLUBIO solver homepage
 </h3>
 
 <p>
-FLUBIO is a parallel, unstructured, finite-volume based solver for the solution of the Navier–Stokes equations and convection–diffusion like equations. The solver is written using modern Fortran (2003+ standard), it is object-oriented, and is organized in such a way that it is easy to understand and modify. The solver is targeted at students, academics, personal users, and practitioners to help them understand the general theory behind modern CFD solution methods and discretization techniques. The solver is also general and capable enough to deal with industrial and academic problems found in the field of fluid dynamics.  
+FLUBIO (a.k.a. FLUBIO-PETSC) is a parallel, unstructured, finite-volume based solver for the solution of the Navier–Stokes equations and convection–diffusion like equations. The solver is written using modern Fortran (2003+ standard), it is object-oriented, and is organized in such a way that it is easy to understand and modify. The solver is targeted at students, academics, personal users, and practitioners to help them understand the general theory behind modern CFD solution methods and discretization techniques. The solver is also general and capable enough to deal with industrial and academic problems found in the field of fluid dynamics.  
 </p>
 
 <br>
@@ -72,7 +85,9 @@ FLUBIO can deal with one-dimensional, two-dimensional, and three-dimensional dom
 <br>
 <br>
 
-FLUBIO has been fully parallelized by using domain decomposition and the message passing interface library OpenMPI. To solve the linear systems arising from the discretization of the governing equations, FLUBIO uses the high performance computing library <a href="https://www.mcs.anl.gov/petsc/">PETSc</a>, which is a collection of routines for efficient and scalable scientific computing.
+FLUBIO has been fully parallelized by using domain decomposition and the message passing interface library OpenMPI. To solve the linear systems arising from the discretization of the governing equations, FLUBIO uses the high performance computing library <a href="https://www.mcs.anl.gov/petsc/">PETSc</a>, which is a collection of routines for efficient and scalable scientific computing. 
+
+<!-- FLUBIO solver is also known as FLUBIO-PETSc. -->
 
 <br>
 <br>
